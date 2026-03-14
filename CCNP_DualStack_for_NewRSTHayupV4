@@ -2427,7 +2427,7 @@ route-map LP1 permit 30
  match ip address 43
   set local-pref 433
 route-map LP1 Deny 45
- match ip address 43
+ match ip address 45
 route-map LP1 Permit 50
 !
 route-map LP1 Permit 40
